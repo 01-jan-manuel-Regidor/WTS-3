@@ -3,21 +3,13 @@
 <html>
     <body>
         <h1>Group 3</h1>
-        <p>Where above the ground</p>
-        <h6>ACT 2E  Webtech2</h6>
-        body {
-  background-color: lightblue;
-}
-
-h6 {
-  color: navy;
-  margin-left: 20px;
-}
-    
+        <p><Font face="Arial Black">Where above the ground</p>
+        <p><Font size="20">ACT 2E  Webtech2</p>
+	<body BGCOLOR="BLACK">
+   	<body TEXT="WHITE"> 
 
 
 </body>
 
 
 </html>
-
