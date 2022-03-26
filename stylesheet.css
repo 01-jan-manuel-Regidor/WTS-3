@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 
 <html>
-    <body>
-        <h1>Group 3</h1>
-        <p><Font face="Arial Black">Where above the ground</p>
-        <p><Font size="20">ACT 2E  Webtech2</p>
-	<body BGCOLOR="BLACK">
-   	<body TEXT="WHITE"> 
-
-
-</body>
-
-
-</html>
+    <head>
+    <title> Group 3 </title>
+	<style type="text/css">
+	.backimg{
+	 background: url(Image123.jpeg);
+	 width: 70%;
+	height: 530px;
+	}
+	</style>
+	</head>
+	<body>
+	<div align="center" style="background-color:Blue; height:700px;">
+	<br/>
+	<br/>
+	<br/>
+	<div class="backimg">
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<input type="text" style="font-size:large; width:500px"/>
+	<br/>
+	<br/>
+	<h1 style="color:Yellow"> Group 3 Webtech STYLESHEET for CSS</h1>
+	<h3 style="color:Yellow">
+	Jan Manuel Regidor<br/>
+	Jonathan Ontong<br/>
+	John Mark Obias<br/>
+	Jose Antonio Moreno<br/>
+	Ruth Ann Relato<br/>
+	Herculano Estoria
+	
+	
+	</h3>
+	</div>
+	</div>
+	</body>
+</html>	
