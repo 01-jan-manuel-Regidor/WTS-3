@@ -1,44 +1,102 @@
-<!DOCTYPE html>
+html,body, {
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
 
-<html>
-    <head>
-    <title> Group 3 </title>
-	<style type="text/css">
-	.backimg{
-	 background: url(Image123.jpeg);
-	 width: 70%;
-	height: 530px;
-	}
-	</style>
-	</head>
-	<body>
-	<div align="center" style="background-color:Blue; height:700px;">
-	<br/>
-	<br/>
-	<br/>
-	<div class="backimg">
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<input type="text" style="font-size:large; width:500px"/>
-	<br/>
-	<br/>
-	<h1 style="color:Yellow"> Group 3 Webtech STYLESHEET for CSS</h1>
-	<h3 style="color:Yellow">
-	Jan Manuel Regidor<br/>
-	Jonathan Ontong<br/>
-	John Mark Obias<br/>
-	Jose Antonio Moreno<br/>
-	Ruth Ann Relato<br/>
-	Herculano Estoria
-	
-	
-	</h3>
-	</div>
-	</div>
-	</body>
-</html>	
+*
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+.background-image{
+    background: url(Etonapo.jpg);
+    height: 500px;
+	background-position: center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+				background-size: contain;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 50%;
+}
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8px;
+}
+.text-box p{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.text-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite;
+}
+.text-box h2{
+   font-size: 50px;
+    line-height: 100px;
+    margin-right: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        
+    }
+}
